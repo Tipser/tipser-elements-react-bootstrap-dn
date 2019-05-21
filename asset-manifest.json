@@ -1,14 +1,19 @@
 {
-  "main.css": "/tipser-elements-react-bootstrap/static/css/main.e3669f91.chunk.css",
-  "main.js": "/tipser-elements-react-bootstrap/static/js/main.5aba16bd.chunk.js",
-  "main.js.map": "/tipser-elements-react-bootstrap/static/js/main.5aba16bd.chunk.js.map",
-  "runtime~main.js": "/tipser-elements-react-bootstrap/static/js/runtime~main.e2fe5a93.js",
-  "runtime~main.js.map": "/tipser-elements-react-bootstrap/static/js/runtime~main.e2fe5a93.js.map",
-  "static/js/2.e47dd818.chunk.js": "/tipser-elements-react-bootstrap/static/js/2.e47dd818.chunk.js",
-  "static/js/2.e47dd818.chunk.js.map": "/tipser-elements-react-bootstrap/static/js/2.e47dd818.chunk.js.map",
-  "index.html": "/tipser-elements-react-bootstrap/index.html",
-  "precache-manifest.8309fee1a635b72ac5e8cac31ecebd47.js": "/tipser-elements-react-bootstrap/precache-manifest.8309fee1a635b72ac5e8cac31ecebd47.js",
-  "service-worker.js": "/tipser-elements-react-bootstrap/service-worker.js",
-  "static/css/main.e3669f91.chunk.css.map": "/tipser-elements-react-bootstrap/static/css/main.e3669f91.chunk.css.map",
-  "static/media/logo.svg": "/tipser-elements-react-bootstrap/static/media/logo.03714909.svg"
+  "files": {
+    "main.css": "/tipser-elements-dn/static/css/main.6ac1e341.chunk.css",
+    "main.js": "/tipser-elements-dn/static/js/main.dae6e2c5.chunk.js",
+    "main.js.map": "/tipser-elements-dn/static/js/main.dae6e2c5.chunk.js.map",
+    "runtime~main.js": "/tipser-elements-dn/static/js/runtime~main.ac9c9e99.js",
+    "runtime~main.js.map": "/tipser-elements-dn/static/js/runtime~main.ac9c9e99.js.map",
+    "static/js/2.f23f6fc8.chunk.js": "/tipser-elements-dn/static/js/2.f23f6fc8.chunk.js",
+    "static/js/2.f23f6fc8.chunk.js.map": "/tipser-elements-dn/static/js/2.f23f6fc8.chunk.js.map",
+    "index.html": "/tipser-elements-dn/index.html",
+    "precache-manifest.1426e2f2ae95a1335d01716509382224.js": "/tipser-elements-dn/precache-manifest.1426e2f2ae95a1335d01716509382224.js",
+    "service-worker.js": "/tipser-elements-dn/service-worker.js",
+    "static/css/main.6ac1e341.chunk.css.map": "/tipser-elements-dn/static/css/main.6ac1e341.chunk.css.map",
+    "static/media/klarna.png": "/tipser-elements-dn/static/media/klarna.43e9326c.png",
+    "static/media/logo-small.svg": "/tipser-elements-dn/static/media/logo-small.9ff7b325.svg",
+    "static/media/logo.svg": "/tipser-elements-dn/static/media/logo.98aaa5a3.svg",
+    "static/media/visa.png": "/tipser-elements-dn/static/media/visa.f554e26e.png"
+  }
 }
