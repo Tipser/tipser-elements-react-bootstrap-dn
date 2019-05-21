@@ -1,16 +1,18 @@
 {
-  "name": "tipser-elements-bootstrap",
+  "name": "tipser-elements-dn",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tipser.github.io/tipser-elements-react-bootstrap-dn",
+  "homepage": "https://tipser.github.io/tipser-elements-dn",
   "dependencies": {
-    "@tipser/tipser-elements": "^1.0.53",
+    "@tipser/tipser-elements": "^1.0.60",
     "gh-pages": "^2.0.1",
+    "jquery": "^3.4.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-refetch": "^2.0.3",
     "react-router": "^5.0.0",
-    "react-scripts": "2.1.8"
+    "react-scripts": "^3.0.1",
+    "typescript": "^3.4.5"
   },
   "scripts": {
     "start": "react-scripts start",
