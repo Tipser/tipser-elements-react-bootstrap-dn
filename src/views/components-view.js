@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { TipserElement, TipserProduct, CartIcon, CollectionComponent, ShopComponent } from '@tipser/tipser-elements';
+import { TipserElement } from '@tipser/tipser-elements';
 import {Header } from '../components/header';
 import {Footer } from '../components/footer';
 

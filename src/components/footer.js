@@ -4,8 +4,7 @@ import Logo from '../logo-small.svg';
 import Klarna from '../resources/psp-icon/klarna.png';
 import Mastercard from '../resources/psp-icon/mastercard.png';
 import Visa from '../resources/psp-icon/visa.png';
-
-
+import './footer.css';
 
 export class Footer extends React.Component {
 
@@ -52,9 +51,9 @@ export class Footer extends React.Component {
                 <div class="footer-terms">
                     <div class="footer-terms-links">
                         <div class="footer-links footer-links-privacy footer-links-inline">
-                            <a href="https://tipser.com/terms?pageLang=sv" target="_blank" class="footer-link">Conditions of Use and Sale</a><a
-                                href="https://tipser.com/terms/privacy?pageLang=sv" target="_blank" class="footer-link">Privacy notice</a><a
-                                href="https://tipser.com/terms/cookies?pageLang=sv" target="_blank" class="footer-link">Cookies &amp; Analytics</a>
+                            <a href="https://tipser.com/terms?pageLang=sv" target="_blank" rel="noopener noreferrer" class="footer-link">Conditions of Use and Sale</a>
+                            <a href="https://tipser.com/terms/privacy?pageLang=sv" target="_blank" rel="noopener noreferrer" class="footer-link">Privacy notice</a>
+                            <a href="https://tipser.com/terms/cookies?pageLang=sv" target="_blank" rel="noopener noreferrer" class="footer-link">Cookies &amp; Analytics</a>
                         </div>
                     </div>
                 </div>
@@ -62,7 +61,6 @@ export class Footer extends React.Component {
 
             <div className="site-footer__bottom">
                 <div class="footer-copyrights">© 2011 - 2019, Tipser AB</div>
-
                 <a href="/" class="">
                     <svg src={Logo} className="te-small icon" alt="logo" />
                 </a>

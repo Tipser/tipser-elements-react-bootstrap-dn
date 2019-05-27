@@ -1,84 +1,126 @@
-.header {
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    min-height: 50px;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    width: 100vw;
-    z-index: 10;
-    top: 0;
-    /* padding: 5px; */
-    justify-content: center;
-  }
-  
+.site-header {
+  font-family: GuardianSans, Segoe UI, Trebuchet MS, Dejavu Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 1;
+  font-size: 16px;
+  border-width: 6px 0 0;
+  border-style: solid;
+  box-sizing: border-box;
+  background-color: #fff;
+  max-height: 165px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100vw;
+  z-index: 10;
+  top: 0;
+}
+.site-body, .site-header {
+    max-width: 1340px;
+}
+
+.th-border {
+  border-color: #da000d;
+}
+
+.menu {
+  list-style: none;
+  padding-left: 0;
+}
+
+.menu-item {
+  padding-left: 35px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.navigation {
+  display: block;
+  padding: 5px 5px;
+}
+
+@media only screen and (min-width: 1342px) {
   .navigation {
-    align-items: center;
-    display: flex;
-    padding: 0 40px 0 20px;
-    position: relative;
+    padding: 5px 20px;
   }
-  
+}
+
+
+
 .horizontal-menu {
-    list-style: none;
-    display: block;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    align-items: center;
-    margin: 0 10px;
-    padding: 0;
-    font-size: 0.7em;
-    overflow-x: auto;
-    width: 100%;
-    white-space: nowrap;
-  }
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
 
-  .horizontal-menu::-webkit-scrollbar { 
-    display: none; 
-  }
-  
-  .horizontal-menu .horizontal-item {
-    display: inline-block;
-    padding: 0;
-    margin: 10px;
-    background-color: #fefefe;
-    font-weight: 500;
-    font-size: 1.2em;
-    cursor: pointer;
-    transition: color .4s ease;
-  }
-  
-  .horizontal-menu .horizontal-item a {
-    color: #333;
-    text-decoration: none;
-    padding: 5px;
-    background-color: #f1f1f1;
-  }
+.horizontal-item {
+  padding: 0;
+  margin: 0 20px 0 0;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: color .4s ease;
+}
 
-  .horizontal-menu .horizontal-item a:hover {
-     background-color: #dedede;
-  }
+.te-cart {
+  margin-left: auto;
+}
 
-  .cart-icon .tipser-icon-cart {
-    color: black;
-    font-size: 20px;
-  }
-  
-  .navigation .cart-icon {
+.cart-icon .tipser-icon-cart .tipser-cart-size-indicator {
     position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    font-family: Helvetica;
+}
 
-  .te-logo {
-    height: 30px;
-    width: 30px;
-  }
+.cart-icon .tipser-icon-cart {
+  color: black;
+  font-size: 20px;
+}
 
-  @media (min-width: 990px) {
-    .horizontal-menu {
-        white-space: normal;
-    }
+
+.horizontal-menu {
+  list-style: none;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 0 10px;
+  padding: 0;
+  font-size: 0.7em;
+  overflow-x: auto;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.horizontal-menu::-webkit-scrollbar {
+  display: none;
+}
+
+.horizontal-menu .horizontal-item a {
+  text-decoration: none;
+}
+
+
+.cart-icon .tipser-icon-cart {
+  color: black;
+  font-size: 20px;
+}
+
+.te-logo {
+  height: 30px;
+  max-width: 250px;
+}
+
+@media (min-width: 990px) {
+  .horizontal-menu {
+    white-space: normal;
   }
+}
