@@ -1,10 +1,11 @@
 import * as React from 'react';
+// eslint-disable-next-line
 import { Link } from 'react-router-dom';
 import Logo from '../logo-small.svg';
 import Klarna from '../resources/psp-icon/klarna.png';
 import Mastercard from '../resources/psp-icon/mastercard.png';
 import Visa from '../resources/psp-icon/visa.png';
-import './footer.css';
+import './footer.scss';
 
 export class Footer extends React.Component {
 
@@ -33,13 +34,13 @@ export class Footer extends React.Component {
                         <span class="footer-header">Pay with</span>
                         <div class="footer-payments-icons">
                             <span class="psp-icon-wrapper">
-                                <img class="psp-icon" src={Klarna}/>
+                                <img class="psp-icon" alt="Betala med Klarna" src={Klarna}/>
                             </span>
                             <span class="psp-icon-wrapper">
-                                <img class="psp-icon" src={Mastercard}/>
+                                <img class="psp-icon" alt="Betala med Mastercard" src={Mastercard}/>
                             </span>
                             <span class="psp-icon-wrapper">
-                                <img class="psp-icon" src={Visa}/>
+                                <img class="psp-icon" alt="Betala med Visa" src={Visa}/>
                             </span>
                         </div>
                     </div>

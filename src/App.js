@@ -4,7 +4,7 @@ import { TipserElementsProvider } from '@tipser/tipser-elements';
 import { ComponentsView } from './views/components-view';
 import { ProductView } from './views/product-view';
 import { NotFoundView } from './views/not-found-view';
-import './App.css';
+import './App.scss';
 import { createHashHistory } from 'history';
 
 const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
