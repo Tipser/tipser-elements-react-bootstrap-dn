@@ -36,9 +36,11 @@ export class Header extends React.Component {
                             Tillbaka till Dagens Nyheter
                         </a>
                     </li> */}
+                    <li className="horizontal-item te-cart">
+                        {/* Inserting the Tipser cart Icon */}
+                        <Cart />
+                    </li>
                 </ul>
-                {/* Inserting the Tipser cart Icon */}
-                <Cart />
             </nav>
         </header>
     }
