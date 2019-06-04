@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7b632a7aadb0e7b520c4155f6921e18",
+    "revision": "b1dc8701522310066a59ea7e2b11add0",
     "url": "/tipser-elements-dn/index.html"
   },
   {
-    "revision": "d0f9c168c0a29fcbc950",
-    "url": "/tipser-elements-dn/static/css/main.833aa521.chunk.css"
+    "revision": "4230df1c0ac1735b134e",
+    "url": "/tipser-elements-dn/static/css/main.dfbb3ca3.chunk.css"
   },
   {
-    "revision": "7e830e4f095cb83910b2",
-    "url": "/tipser-elements-dn/static/js/2.32b409ed.chunk.js"
+    "revision": "eb987aba88c7dd2218ea",
+    "url": "/tipser-elements-dn/static/js/2.f69d9fae.chunk.js"
   },
   {
-    "revision": "d0f9c168c0a29fcbc950",
-    "url": "/tipser-elements-dn/static/js/main.7a7b2333.chunk.js"
+    "revision": "4230df1c0ac1735b134e",
+    "url": "/tipser-elements-dn/static/js/main.4d710920.chunk.js"
   },
   {
-    "revision": "6e65fd623ac87aba9eef",
-    "url": "/tipser-elements-dn/static/js/runtime~main.ac9c9e99.js"
+    "revision": "dc862bd8a05bdd35edec",
+    "url": "/tipser-elements-dn/static/js/runtime~main.b5d12673.js"
   },
   {
     "revision": "43e9326ce970f55f99d21aa45fc9f628",
