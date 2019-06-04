@@ -1,7 +1,7 @@
 import * as React from 'react';
 // eslint-disable-next-line
 import { Link } from 'react-router-dom';
-import { CartIcon } from '@tipser/tipser-elements';
+import { Cart } from '@tipser/tipser-elements';
 import logo from '../logo.svg';
 import './header.scss';
 
@@ -38,7 +38,7 @@ export class Header extends React.Component {
                     </li> */}
                     <li className="horizontal-item te-cart">
                         {/* Inserting the Tipser cart Icon */}
-                        <CartIcon />
+                        <Cart />
                     </li>
                 </ul>
             </nav>
