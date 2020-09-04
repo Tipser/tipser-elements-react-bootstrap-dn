@@ -7,7 +7,7 @@
     "@tipser/tipser-elements": "^1.0.65",
     "gh-pages": "^2.0.1",
     "jquery": "^3.4.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-refetch": "^2.0.3",
